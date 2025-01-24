@@ -4,6 +4,18 @@
         <name>Presentation</name>
     </assembly>
     <members>
+        <member name="M:Presentation.Controllers.AuthController.RegisterAsync(Business.Features.Auth.Command.AuthRegister.AuthRegisterCommand)">
+            <summary>
+            User registration
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:Presentation.Controllers.AuthController.LoginAsync(Business.Features.Auth.Command.AuthLogin.AuthLoginCommand)">
+            <summary>
+            User login
+            </summary>
+            <param name="request"></param>
+        </member>
         <member name="M:Presentation.Controllers.ProductController.GetAllProductsAsync">
             <summary>
             Products List 
@@ -38,6 +50,28 @@
             Product deleting
             </summary>
             <param name="id"></param>
+        </member>
+        <member name="M:Presentation.Controllers.RoleController.GetAllRolesAsync">
+            <summary>
+            Roles list
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.UserController.GetAllUsersAsync">
+            <summary>
+            Users list
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.UserRoleController.AddRoleToUserAsync(Business.Features.UserRole.Command.AddRoleToUser.AddRoleToUserCommand)">
+            <summary>
+            Adding role to user
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:Presentation.Controllers.UserRoleController.RemoveRoleFromUserAsync(Business.Features.UserRole.Command.RemoveRoleFromUser.RemoveRoleFromUserCommand)">
+            <summary>
+            Deleting role from user
+            </summary>
+            <param name="request"></param>
         </member>
     </members>
 </doc>

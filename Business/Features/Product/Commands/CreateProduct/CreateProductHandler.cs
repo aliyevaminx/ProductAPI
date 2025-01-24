@@ -39,7 +39,7 @@ public class CreateProductHandler : IRequestHandler<CreateProductCommand, Respon
 
 		var product = await _productReadRepository.GetByNameAsync(request.Name);
 		if (product is not null)
-			throw new ValidationException("The product with this name is already exist");
+			throw new ValidationException("The product is already exist");
 
 		product = _mapper.Map<Core.Entities.Product>(request);
 

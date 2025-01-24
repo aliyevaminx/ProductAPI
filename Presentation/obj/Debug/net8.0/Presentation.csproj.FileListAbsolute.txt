@@ -157,3 +157,10 @@ C:\Users\Amin\source\repos\ProductAPI\Presentation\obj\Debug\net8.0\ref\Presenta
 C:\Users\Amin\source\repos\ProductAPI\Presentation\bin\Debug\net8.0\Presentation.xml
 C:\Users\Amin\source\repos\ProductAPI\Presentation\obj\Debug\net8.0\Presentation.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Amin\source\repos\ProductAPI\Presentation\obj\Debug\net8.0\Presentation.xml
+C:\Users\Amin\source\repos\ProductAPI\Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Amin\source\repos\ProductAPI\Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Amin\source\repos\ProductAPI\Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Amin\source\repos\ProductAPI\Presentation\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Amin\source\repos\ProductAPI\Presentation\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Amin\source\repos\ProductAPI\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json
+C:\Users\Amin\source\repos\ProductAPI\Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
