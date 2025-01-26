@@ -1,4 +1,4 @@
-﻿using Business.Features.Product.Commands.Dtos;
+﻿using Business.Features.Product.Dtos;
 using Business.Wrappers;
 using MediatR;
 using System;

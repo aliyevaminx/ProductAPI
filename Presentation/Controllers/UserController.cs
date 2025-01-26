@@ -1,4 +1,4 @@
-﻿using Business.Features.User.Queries.Dtos;
+﻿using Business.Features.User.Dtos;
 using Business.Features.User.Queries.GetAllUsers;
 using Business.Wrappers;
 using MediatR;

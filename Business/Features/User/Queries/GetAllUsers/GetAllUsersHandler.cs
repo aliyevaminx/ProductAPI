@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Business.Features.User.Queries.Dtos;
+using Business.Features.User.Dtos;
 using Business.Wrappers;
 using MediatR;
 using Microsoft.AspNetCore.Identity;

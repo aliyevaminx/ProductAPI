@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <Folder Include="Handles\Product\Query\" />
+    <Folder Include="MockData\Product\UpdateProductHandler\" />
   </ItemGroup>
 
   <ItemGroup>

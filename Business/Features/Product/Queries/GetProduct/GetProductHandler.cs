@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Business.Features.Product.Commands.Dtos;
+using Business.Features.Product.Dtos;
 using Business.Wrappers;
 using Core.Exceptions;
 using Data.Repositories.Product.Read;

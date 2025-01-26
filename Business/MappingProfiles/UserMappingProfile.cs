@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Business.Features.Auth.Command.AuthRegister;
-using Business.Features.User.Queries.Dtos;
+using Business.Features.User.Dtos;
 using Core.Entities;
 using System;
 using System.Collections.Generic;

@@ -33,6 +33,10 @@ public class CreateProductCommandValidator : AbstractValidator<CreateProductComm
 			.WithMessage("Type must be correct");
 
 		RuleFor(x => x.Photo)
+			.NotEmpty()
+			.WithMessage("Şəkil daxil edilməlidir");
+
+		RuleFor(x => x.Photo)
 			.Must(IsCorrectFormat)
 			.WithMessage("Photo type is incorrect");
 	}

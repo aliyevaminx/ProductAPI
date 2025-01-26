@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Business.Features.Role.Queries.Dtos;
+namespace Business.Features.Role.Dtos;
 
 public class RoleDto
 {

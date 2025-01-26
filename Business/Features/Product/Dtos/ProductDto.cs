@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Business.Features.Product.Commands.Dtos;
+namespace Business.Features.Product.Dtos;
 
 public class ProductDto
 {

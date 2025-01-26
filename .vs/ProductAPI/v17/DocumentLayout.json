@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|c:\\users\\amin\\source\\repos\\productapi\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A68CE4A7-57D4-46C0-A812-0627EE7EEF5C}|UnitTests\\UnitTests.csproj|c:\\users\\amin\\source\\repos\\productapi\\unittests\\handles\\product\\command\\product\\updateproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A68CE4A7-57D4-46C0-A812-0627EE7EEF5C}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handles\\product\\command\\product\\updateproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|c:\\users\\amin\\source\\repos\\productapi\\presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|c:\\users\\amin\\source\\repos\\productapi\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|c:\\users\\amin\\source\\repos\\productapi\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC8A822-6885-481A-951F-9D48D91B0A19}|Business\\Business.csproj|c:\\users\\amin\\source\\repos\\productapi\\business\\features\\product\\commands\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC8A822-6885-481A-951F-9D48D91B0A19}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T18:09:14.507Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -56,27 +43,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T17:48:29.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T11:21:25.435Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Program.cs",
-              "RelativeToolTip": "Presentation\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAFYAAAAkAAAAAAAAAA==",
+              "Title": "UpdateProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T17:47:50.706Z",
+              "WhenOpened": "2025-01-25T09:52:05.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateProductHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwFkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T09:29:23.805Z",
               "EditorCaption": ""
             }
           ]

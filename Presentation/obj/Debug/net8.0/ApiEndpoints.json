@@ -97,7 +97,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Business.Wrappers.Response\u00601[[System.Collections.Generic.List\u00601[[Business.Features.Product.Commands.Dtos.ProductDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "Business.Wrappers.Response\u00601[[System.Collections.Generic.List\u00601[[Business.Features.Product.Dtos.ProductDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -220,7 +220,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Business.Wrappers.Response\u00601[[Business.Features.Product.Commands.Dtos.ProductDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Business.Wrappers.Response\u00601[[Business.Features.Product.Dtos.ProductDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -316,7 +316,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Business.Wrappers.Response\u00601[[System.Collections.Generic.List\u00601[[Business.Features.Role.Queries.Dtos.RoleDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "Business.Wrappers.Response\u00601[[System.Collections.Generic.List\u00601[[Business.Features.Role.Dtos.RoleDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -345,7 +345,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Business.Wrappers.Response\u00601[[System.Collections.Generic.List\u00601[[Business.Features.User.Queries.Dtos.UserDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "Business.Wrappers.Response\u00601[[System.Collections.Generic.List\u00601[[Business.Features.User.Dtos.UserDto, Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

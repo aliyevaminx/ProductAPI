@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Business.Features.Role.Queries.Dtos;
+using Business.Features.Role.Dtos;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;

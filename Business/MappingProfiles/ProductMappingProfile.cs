@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Business.Features.Product.Commands.CreateProduct;
-using Business.Features.Product.Commands.Dtos;
 using Business.Features.Product.Commands.UpdateProduct;
+using Business.Features.Product.Dtos;
 using Core.Entities;
 using System;
 using System.Collections.Generic;

@@ -1,4 +1,4 @@
-﻿using Business.Features.Role.Queries.Dtos;
+﻿using Business.Features.Role.Dtos;
 using Business.Features.Role.Queries.GetAllRoles;
 using Business.Wrappers;
 using MediatR;

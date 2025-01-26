@@ -1,7 +1,7 @@
 ﻿using Business.Features.Product.Commands.CreateProduct;
 using Business.Features.Product.Commands.DeleteProduct;
-using Business.Features.Product.Commands.Dtos;
 using Business.Features.Product.Commands.UpdateProduct;
+using Business.Features.Product.Dtos;
 using Business.Features.Product.Queries.GetAllProducts;
 using Business.Features.Product.Queries.GetProduct;
 using Business.Wrappers;
@@ -12,9 +12,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers
 {
-    [ApiController]
+	[ApiController]
     [Route("api/[controller]")]
-	[Authorize(Roles = "Seller", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+	[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
 
 	public class ProductController : ControllerBase
     {
