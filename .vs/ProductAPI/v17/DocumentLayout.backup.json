@@ -25,19 +25,6 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T11:21:25.435Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
@@ -55,6 +42,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T11:21:25.435Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UpdateProductHandler.cs",
               "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:52:05.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:52:05.753Z"
             },
             {
               "$type": "Document",
@@ -72,9 +70,9 @@
               "Title": "UpdateProductHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
               "RelativeDocumentMoniker": "UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
-              "RelativeToolTip": "UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAxwFkAAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs*",
+              "RelativeToolTip": "UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwD0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T09:29:23.805Z",
               "EditorCaption": ""

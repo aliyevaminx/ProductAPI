@@ -35,7 +35,7 @@ public class UpdateProductHandlerTests
 	}
 
 	[Fact]
-	public async Task Service_WhenProductNotFound_ShouldThrowValidationException()
+	public async Task Handle_ProductDoesNotExist_ShouldThrowNotFoundException()
 	{
 		//Arrange
 		var request = new UpdateProductCommand
@@ -59,7 +59,7 @@ public class UpdateProductHandlerTests
 	}
 
 	[Fact]
-	public async Task Service_WhenValidationIsFailed_ShouldThrowValidationException()
+	public async Task Handle_InvalidRequest_ShouldThrowValidationException()
 	{
 		//Arrange
 		var request = new UpdateProductCommand
@@ -82,7 +82,7 @@ public class UpdateProductHandlerTests
 	}
 
 	[Fact]
-	public async Task Service_WhenFlowIsSucceded_ShouldReturnResponse()
+	public async Task Handle_ProductExistsAndValidRequest_ShouldUpdateProduct()
 	{
 		//Arrange
 		var request = new UpdateProductCommand
