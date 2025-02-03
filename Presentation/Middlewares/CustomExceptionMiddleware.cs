@@ -6,10 +6,13 @@ namespace Presentation.Middlewares;
 public class CustomExceptionMiddleware
 {
     private readonly RequestDelegate next;
-    public CustomExceptionMiddleware(RequestDelegate requestDelegate)
+	private readonly ILogger<CustomExceptionMiddleware> _logger;
+
+	public CustomExceptionMiddleware(RequestDelegate requestDelegate, ILogger<CustomExceptionMiddleware> logger)
     {
         next = requestDelegate;
-    }
+		_logger = logger;
+	}
 
     public async Task InvokeAsync(HttpContext context)
     {
@@ -35,9 +38,7 @@ public class CustomExceptionMiddleware
                     response.Errors = ex.Errors;
                     break;
                 default:
-                    Console.WriteLine(e.InnerException);
-                    Console.WriteLine(e.Message);
-                    
+                    _logger.LogError($"Message {e.Message} Inner Exception: {e.InnerException}");
                     context.Response.StatusCode = StatusCodes.Status500InternalServerError;
                     response.Message = "An error occurred";
                     break;

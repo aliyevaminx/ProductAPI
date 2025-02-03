@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A68CE4A7-57D4-46C0-A812-0627EE7EEF5C}|UnitTests\\UnitTests.csproj|c:\\users\\amin\\source\\repos\\productapi\\unittests\\handles\\product\\command\\product\\updateproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68CE4A7-57D4-46C0-A812-0627EE7EEF5C}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handles\\product\\command\\product\\updateproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|c:\\users\\amin\\source\\repos\\productapi\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2933AE-1BF0-4875-93CD-FE4991B018EA}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC8A822-6885-481A-951F-9D48D91B0A19}|Business\\Business.csproj|c:\\users\\amin\\source\\repos\\productapi\\business\\features\\product\\commands\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC8A822-6885-481A-951F-9D48D91B0A19}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,43 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Presentation\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T11:21:25.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateProductHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
-              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
-              "RelativeToolTip": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:52:05.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateProductHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
-              "RelativeDocumentMoniker": "UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ProductAPI\\UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs*",
-              "RelativeToolTip": "UnitTests\\Handles\\Product\\Command\\Product\\UpdateProductHandlerTests.cs*",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwD0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T09:29:23.805Z",
-              "EditorCaption": ""
             }
           ]
         },

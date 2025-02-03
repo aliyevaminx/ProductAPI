@@ -13,6 +13,8 @@ using IdentityProject;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Serilog;
+using Business.Services.Producer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,26 +29,26 @@ builder.Services.AddSwaggerGen(x =>
 	{
 		Title = "MyProductAPI"
 	});
-	x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
-	{
-		Name = "Authorization",
-		Type = SecuritySchemeType.ApiKey,
-		Scheme = "Bearer",
-		BearerFormat = "JWT",
-		In = ParameterLocation.Header,
-		Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
-	});
-	x.AddSecurityRequirement(new OpenApiSecurityRequirement {
-		{
-			new OpenApiSecurityScheme {
-				Reference = new OpenApiReference {
-					Type = ReferenceType.SecurityScheme,
-						Id = "Bearer"
-				}
-			},
-			new string[] {}
-		}
-	});
+	//x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+	//{
+	//	Name = "Authorization",
+	//	Type = SecuritySchemeType.ApiKey,
+	//	Scheme = "Bearer",
+	//	BearerFormat = "JWT",
+	//	In = ParameterLocation.Header,
+	//	Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
+	//});
+	//x.AddSecurityRequirement(new OpenApiSecurityRequirement {
+	//	{
+	//		new OpenApiSecurityScheme {
+	//			Reference = new OpenApiReference {
+	//				Type = ReferenceType.SecurityScheme,
+	//					Id = "Bearer"
+	//			}
+	//		},
+	//		new string[] {}
+	//	}
+	//});
 
 	x.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Presentation.xml"));
 });
@@ -56,6 +58,15 @@ builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(builder.Configur
 
 builder.Services.AddIdentity<User, IdentityRole>()
 	.AddEntityFrameworkStores<AppDbContext>();
+
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy(name: "MyAllowSpecificOrigins",
+					  builder =>
+					  {
+						  builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+					  }); 
+});
 
 // Adding Authentication
 builder.Services.AddAuthentication(options => {
@@ -97,14 +108,26 @@ builder.Services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddApplicationExtensions();
 
+Log.Logger = new LoggerConfiguration()
+			.ReadFrom.Configuration(builder.Configuration)
+			.CreateLogger();
+
+builder.Services.AddSerilog();
+
+builder.Services.AddScoped<IProducerService, ProducerService>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+using (var scope = app.Services.CreateScope())
 {
-	app.UseSwagger();
-	app.UseSwaggerUI();
+	var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+	await dbContext.Database.MigrateAsync();
 }
+ 
+app.UseCors("MyAllowSpecificOrigins");
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 

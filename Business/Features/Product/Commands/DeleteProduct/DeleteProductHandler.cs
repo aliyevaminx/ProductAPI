@@ -1,4 +1,5 @@
-﻿using Business.Wrappers;
+﻿using Business.Services.Producer;
+using Business.Wrappers;
 using Core.Exceptions;
 using Data.Repositories.Product.Read;
 using Data.Repositories.Product.Write;
@@ -17,14 +18,17 @@ public class DeleteProductHandler : IRequestHandler<DeleteProductCommand, Respon
 	private readonly IProductWriteRepository _productWriteRepository;
 	private readonly IProductReadRepository _productReadRepository;
 	private readonly IUnitOfWork _unitOfWork;
+	private readonly IProducerService _producerService;
 
 	public DeleteProductHandler(IProductWriteRepository productWriteRepository,
 								IProductReadRepository productReadRepository,
-								IUnitOfWork unitOfWork)
+								IUnitOfWork unitOfWork,
+								IProducerService producerService)
 	{
 		_productWriteRepository = productWriteRepository;
 		_productReadRepository = productReadRepository;
 		_unitOfWork = unitOfWork;
+		_producerService = producerService;
 	}
 
 	public async Task<Response> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
@@ -35,6 +39,8 @@ public class DeleteProductHandler : IRequestHandler<DeleteProductCommand, Respon
 
 		_productWriteRepository.Delete(product);
 		await _unitOfWork.CommitAsync();
+
+		await _producerService.ProduceAsync("delete", product);
 
 		return new Response()
 		{

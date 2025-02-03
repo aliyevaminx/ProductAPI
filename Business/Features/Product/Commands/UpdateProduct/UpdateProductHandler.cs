@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Business.Services.Producer;
 using Business.Wrappers;
 using Core.Exceptions;
 using Data.Repositories.Product.Read;
@@ -19,16 +20,19 @@ public class UpdateProductHandler : IRequestHandler<UpdateProductCommand, Respon
 	private readonly IProductWriteRepository _productWriteRepository;
 	private readonly IProductReadRepository _productReadRepository;
 	private readonly IMapper _mapper;
+	private readonly IProducerService _producerService;
 
 	public UpdateProductHandler(IUnitOfWork unitOfWork,
 								IProductWriteRepository productWriteRepository,
 								IProductReadRepository productReadRepository,
-								IMapper mapper)
+								IMapper mapper,
+								IProducerService producerService)
 	{
 		_unitOfWork = unitOfWork;
 		_productWriteRepository = productWriteRepository;
 		_productReadRepository = productReadRepository;
 		_mapper = mapper;
+		_producerService = producerService;
 	}
 
 	public async Task<Response> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
@@ -45,6 +49,8 @@ public class UpdateProductHandler : IRequestHandler<UpdateProductCommand, Respon
 
 		_productWriteRepository.Update(product);
 		await _unitOfWork.CommitAsync();
+
+		await _producerService.ProduceAsync("update", product);
 
 		return new Response
 		{
